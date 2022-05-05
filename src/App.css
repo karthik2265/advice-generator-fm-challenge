@@ -1,0 +1,71 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Dark-Blue);
+  display: grid;
+  place-items: center;
+}
+
+.advice-card {
+  background-color: var(--Dark-Grayish-Blue);
+  text-align: center;
+  width: calc(444px + 2rem);
+  padding: 2.75rem 1.25rem;
+  font-weight: 800;
+  border-radius: 8px;
+  position: relative;
+}
+
+.advice-id {
+  color: var(--Neon-Green);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.advice-text {
+  color: var(--Light-Cyan);
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.75rem;
+}
+
+.pattern-divider {
+  background-image: url('./images/pattern-divider-desktop.svg');
+  width: 100%;
+  height: 16px;
+  margin-bottom: 1rem;
+}
+
+.new-button {
+  background-image: url('./images/icon-dice.svg');
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-color: var(--Neon-Green);
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 51%;
+  transform: translate(-50%, 50%);
+}
+
+.new-button:hover {
+  cursor: pointer;
+  box-shadow: -1px 0 40px 2px var(--Neon-Green),
+    1px 0 40px 2px var(--Neon-Green);
+  filter: brightness(1.1);
+}
+
+@media screen and (max-width: 500px) {
+  .advice-card {
+    width: calc(295px + 1rem);
+    padding: 2rem 0.5rem;
+  }
+  .pattern-divider {
+    background-image: url('./images/pattern-divider-mobile.svg');
+  }
+  .new-button {
+    left: 50%;
+  }
+}
