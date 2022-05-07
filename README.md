@@ -15,8 +15,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/karthik2265/advice-generator-fm-challenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github-link](https://github.com/karthik2265/advice-generator-fm-challenge)
+- Live Site URL: [live-site-link](https://advice-generator-fm-challenge.vercel.app/)
 
 ## My process
 
